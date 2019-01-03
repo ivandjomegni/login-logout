@@ -1,0 +1,19 @@
+Using Apache, PHP and MySQL to create a web application that demonstrates the ability to integrate server scripting, html presentation and 
+database management. 
+
+Key features of the project must include:
+
+1. The ability to allow users to register an account on the site. This should at a minimum require a username, password and a preferred 
+background image. The choice of background images can be hard coded into a selection list, and must provide a preview of the selected 
+image using AJAX. Ideally the password must be stored in an encrypted form.
+
+2. The enforcement of users to be logged on to view all pages in the site other than those required to complete a registration. 
+If a non-logged on user attempts to access a protected page please issue a warning screen and then provide a way to display the logon 
+page.
+
+3. A way for a user to logoff.
+
+4. Ability to display all registered users, update the registration of any user and delete a user’s registration.
+
+5. Utilize a session variable to display in a header who is logged in on every page. Also use a session variable to store the background 
+required for the logged on user.
